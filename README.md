@@ -1,4 +1,4 @@
-# Park Pulse 🎢
+# 🎢 Park Pulse Analytics - A Cloud-Based Pipeline for Theme Park Wait Time Trends
 
 An end-to-end cloud data pipeline that automatically collects real-time ride wait times and weather data across Disney World and Universal Orlando theme parks every 15 minutes, stores it in AWS, and surfaces insights through Tableau dashboards.
 
@@ -77,7 +77,7 @@ The entire pipeline runs within AWS free tier limits. Lambda's free tier covers 
 
 Three dashboards were built in Tableau Public from data queried out of Athena. Each one focuses on a different angle of the data.
 
-**[View on Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)**
+**[View on Tableau Public](https://public.tableau.com/app/profile/jon.krenick/viz/ParkPulse-ThemeParkWaitTimeAnalysis/ThemeParkWaitTimeAnalysis)**
 
 ### Overall Analysis
 ![Overall Wait Time Analysis Dashboard](dashboards/dashboard_overall.png)
